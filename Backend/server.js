@@ -16,7 +16,7 @@ connectDB();
 
 app.use(express.json());
 
-const FRONTEND_URL = process.env.FRONTEND_URL || "https://ansh-portfolio-phi.vercel.app";
+const FRONTEND_URL = process.env.FRONTEND_URL || "https://f-i-k-a.vercel.app";
 app.use(cors({ origin: FRONTEND_URL, credentials: true }));
 
 app.use("/api/blogs", blogRoutes);
