@@ -11,7 +11,7 @@ export default function BlogDetail() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`https://ansh-portfolio.onrender.com/api/blogs`)
+    fetch(`https://f-i-k-a.onrender.com/api/blogs`)
       .then((response) => response.json())
       .then((data) => {
         const blogPost = data.find(blog => blog.slug === slug);

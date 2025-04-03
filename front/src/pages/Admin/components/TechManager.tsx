@@ -4,7 +4,7 @@ import { Plus, Edit, Trash } from 'lucide-react';
 import toast from 'react-hot-toast';
 import axios from 'axios';
 
-const API_URL = "https://ansh-portfolio.onrender.com/api/technologies";
+const API_URL = "https://f-i-k-a.onrender.com/api/technologies";
 
 export default function TechManager() {
   const [technologies, setTechnologies] = useState([]);

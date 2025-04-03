@@ -14,7 +14,7 @@ export default function ProjectDetail() {
   useEffect(() => {
     const fetchProject = async () => {
       try {
-        const { data } = await axios.get(`https://ansh-portfolio.onrender.com/api/portfolios`);
+        const { data } = await axios.get(`https://f-i-k-a.onrender.com/api/portfolios`);
         const foundProject = data.find((p) => p.slug === slug);
         setProject(foundProject);
       } catch (err) {

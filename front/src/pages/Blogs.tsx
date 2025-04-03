@@ -16,13 +16,13 @@ export default function Blogs() {
   const [blogs, setBlogs] = useState<Blog[]>([]);
 
   // useEffect(() => {
-  //   fetch('https://ansh-portfolio.onrender.com/api/blogs')
+  //   fetch('https://f-i-k-a.onrender.com/api/blogs')
   //     .then((response) => response.json())
   //     .then((data: Blog[]) => setBlogs(data))
   //     .catch((error) => console.error('Error fetching blogs:', error));
   // }, []);
   useEffect(() => {
-    fetch('https://ansh-portfolio.onrender.com/api/blogs')
+    fetch('https://f-i-k-a.onrender.com/api/blogs')
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

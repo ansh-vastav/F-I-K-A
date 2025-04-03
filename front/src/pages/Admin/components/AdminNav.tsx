@@ -10,7 +10,7 @@ export default function AdminNav() {
 
    const handleLogout = async () => {
     try {
-        const response = await fetch("https://ansh-portfolio.onrender.com/api/admin/logout", {
+        const response = await fetch("https://f-i-k-a.onrender.com/api/admin/logout", {
             method: "POST",
             headers: { "Content-Type": "application/json" }
         });

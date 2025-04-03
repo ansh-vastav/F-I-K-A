@@ -4,7 +4,7 @@ import { Plus, Edit, Trash } from "lucide-react";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const API_URL = "https://ansh-portfolio.onrender.com/api/blogs";
+const API_URL = "https://f-i-k-a.onrender.com/api/blogs";
 
 export default function BlogsManager() {
   const [blogs, setBlogs] = useState([]);
