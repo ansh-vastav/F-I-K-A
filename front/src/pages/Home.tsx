@@ -41,18 +41,18 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <motion.div variants={item} className="h-[500px]">
             <Card
-              title="Blog Posts"
+              title="Blogs"
               description="Dive into my technical articles covering web development, software architecture, and industry best practices."
               icon={<Book />}
               to="/blogs"
-              defaultImage="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-              hoverImage="https://images.unsplash.com/photo-1499750310107-5fef28a66643"
+              defaultImage="https://www.behance.net/gallery/223991037/Timeless-Gaze-Indian-Beauty-Reimagined/modules/1279602825"
+              hoverImage="https://www.behance.net/gallery/223991037/Timeless-Gaze-Indian-Beauty-Reimagined/modules/1279602817"
             />
           </motion.div>
           
           <motion.div variants={item} className="h-[500px]">
             <Card
-              title="Portfolio"
+              title="Projects"
               description="Explore my latest projects showcasing modern web applications built with cutting-edge technologies."
               icon={<Briefcase />}
               to="/portfolio"
