@@ -45,8 +45,8 @@ export default function Home() {
               description="Dive into my technical articles covering web development, software architecture, and industry best practices."
               icon={<Book />}
               to="/blogs"
-              defaultImage="https://www.behance.net/gallery/223991037/Timeless-Gaze-Indian-Beauty-Reimagined/modules/1279602825"
-              hoverImage="https://www.behance.net/gallery/223991037/Timeless-Gaze-Indian-Beauty-Reimagined/modules/1279602817"
+              defaultImage="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+              hoverImage="https://images.unsplash.com/photo-1499750310107-5fef28a66643"
             />
           </motion.div>
           
